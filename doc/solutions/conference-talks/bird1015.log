@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.9.19)  14 OCT 2018 23:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.9.19)  15 OCT 2018 00:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1062,7 +1062,7 @@ Package rerunfilecheck Info: File `bird1015.out' has not changed.
 Here is how much of TeX's memory you used:
  18050 strings out of 492641
  339508 string characters out of 6133116
- 428085 words of memory out of 5000000
+ 428083 words of memory out of 5000000
  21437 multiletter control sequences out of 15000+600000
  38484 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191

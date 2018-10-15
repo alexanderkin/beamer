@@ -1,13 +1,13 @@
 # Fdb version 3
-["pdflatex"] 1539577859 "bird1015.tex" "bird1015.pdf" "bird1015" 1539577862
+["pdflatex"] 1539580969 "bird1015.tex" "bird1015.pdf" "bird1015" 1539580972
   "bbs_routes.png" 1539566458 9620775 d866c1ba32189276f3d8ddd7da50d6d6 ""
   "bird-1.png" 1539564821 68806 9a4b3bedf2b8287a750a669a51bbd9b4 ""
   "bird-2.png" 1539564924 274143 5dac7a2c8a22b4ada27cf0b6689df0e8 ""
-  "bird1015.aux" 1539577862 7118 2af8e8710171bddcce2c083707bc2f30 ""
-  "bird1015.nav" 1539577862 4291 00fd93f00e0bf8ca5839a8adaa2c1227 ""
-  "bird1015.out" 1539577862 407 81b7f8bceda0fdf4668b2732c63f548c ""
-  "bird1015.tex" 1539577858 15663 b1e005cd481fbdb78626d2805ccd2149 ""
-  "bird1015.toc" 1539577862 395 8d01f15856b48565dff82b3284764837 ""
+  "bird1015.aux" 1539580972 7118 2af8e8710171bddcce2c083707bc2f30 ""
+  "bird1015.nav" 1539580972 4291 00fd93f00e0bf8ca5839a8adaa2c1227 ""
+  "bird1015.out" 1539580972 407 81b7f8bceda0fdf4668b2732c63f548c ""
+  "bird1015.tex" 1539580968 15757 dbc0213a1ccedb41b08af3eab3eff683 ""
+  "bird1015.toc" 1539580972 395 8d01f15856b48565dff82b3284764837 ""
   "c:/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1537387484 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1537387634 3332 103109f5612ad95229751940c61aada0 ""
   "c:/texlive/2018/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm" 1537387380 1292 bd42be2f344128bff6d35d98474adfe3 ""
@@ -285,9 +285,9 @@
   "temperature_bins.png" 1539566866 26665 2ef83158fdce57aa116840ad91d1c32a ""
   (generated)
   "bird1015.nav"
+  "bird1015.snm"
   "bird1015.toc"
+  "bird1015.aux"
   "bird1015.pdf"
   "bird1015.log"
   "bird1015.out"
-  "bird1015.aux"
-  "bird1015.snm"
