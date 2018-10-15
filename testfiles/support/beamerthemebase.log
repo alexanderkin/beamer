@@ -1,0 +1,1106 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.9.19)  14 OCT 2018 14:53
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**beamerthemebase.tex
+(./beamerthemebase.tex
+LaTeX2e <2018-04-01> patch level 5
+(c:/texlive/2018/texmf-dist/tex/latex/l3build/regression-test.tex
+\gTESTint=\count80
+{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map})
+./beamerthemebase.tex:3: Undefined control sequence.
+l.3 \beamertemplatesolidbackgroundcolor
+                                       {black!5}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./beamerthemebase.tex:3: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \beamertemplatesolidbackgroundcolor{b
+                                         lack!5}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no b in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no 5 in font nullfont!
+./beamerthemebase.tex:4: Undefined control sequence.
+l.4 \beamertemplatetransparentcovered
+                                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 3--5
+[] 
+
+\hbox(0.0+0.0)x0.0
+.\hbox(0.0+0.0)x20.0
+.\penalty 10000
+.\glue(\parfillskip) 0.0 plus 1.0fil
+.\glue(\rightskip) 0.0
+
+
+./beamerthemebase.tex:6: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 \usepackage{
+                times}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+./beamerthemebase.tex:9: Undefined control sequence.
+l.9 \subtitle
+             {With an introduction to a new proof technique}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./beamerthemebase.tex:9: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 \subtitle{W
+               ith an introduction to a new proof technique}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no W in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 9--10
+[]
+
+\hbox(0.0+0.0)x0.0
+.\hbox(0.0+0.0)x20.0
+.\glue(\rightskip) 0.0
+
+
+./beamerthemebase.tex:11: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 \author[E
+              uklid]{Euklid of Alexandria}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no E in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+./beamerthemebase.tex:12: Undefined control sequence.
+l.12 \institute
+               [Univ. Alexandria]{Department of Mathematics\\ University of ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no U in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no U in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no ' in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 11--14
+[]
+
+\hbox(0.0+0.0)x0.0
+.\hbox(0.0+0.0)x20.0
+.\glue(\rightskip) 0.0
+
+(./beamerthemebase.aux)
+\openout1 = `beamerthemebase.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+
+
+./beamerthemebase.tex:15: LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 \begin{document}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+START-TEST-LOG
+
+
+This is a generated file for the l3build validation system.
+
+Don't change this file in any respect.
+
+
+./beamerthemebase.tex:21: Undefined control sequence.
+<argument> \titlepage 
+                      
+l.21   \titlepage
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./beamerthemebase.tex:22: Undefined control sequence.
+l.22   \tableofcontents
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./beamerthemebase.tex:25: Undefined control sequence.
+l.25 \section
+             {Results}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no R in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no s in font nullfont!
+./beamerthemebase.tex:26: Undefined control sequence.
+l.26 \subsection
+                {Proof of the Main Theorem}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no P in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no < in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no > in font nullfont!
+./beamerthemebase.tex:29: Undefined control sequence.
+l.29   \frametitle
+                  {There Is No Largest Prime Number}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no T in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+./beamerthemebase.tex:30: Undefined control sequence.
+l.30   \framesubtitle
+                     {The proof uses \textit{reductio ad absurdum}.}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no T in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no . in font nullfont!
+
+./beamerthemebase.tex:32: LaTeX Error: Environment theorem undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32   \begin{theorem}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no T in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no . in font nullfont!
+
+./beamerthemebase.tex:34: LaTeX Error: \begin{frame} on input line 28 ended by \end{theorem}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34   \end{theorem}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./beamerthemebase.tex:35: LaTeX Error: Environment proof undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35   \begin{proof}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no < in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no | in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no @ in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 39.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 39.
+Missing character: There is no w in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no < in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no < in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+./beamerthemebase.tex:41: Missing $ inserted.
+<inserted text> 
+                $
+l.41     \item<3-> Then $q$\;
+                             +\,$1$ is not divisible by any of them.
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no 1 in font nullfont!
+
+./beamerthemebase.tex:42: LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42     \item
+              <1-> Thus $q$\;+\,$1$ is also prime and greater than $p$.\qedhere
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./beamerthemebase.tex:42: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42     \item<
+               1-> Thus $q$\;+\,$1$ is also prime and greater than $p$.\qedhere
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./beamerthemebase.tex:42: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42     \item<
+               1-> Thus $q$\;+\,$1$ is also prime and greater than $p$.\qedhere
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no q in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+./beamerthemebase.tex:42: Undefined control sequence.
+l.42 ...s also prime and greater than $p$.\qedhere
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./beamerthemebase.tex:43: LaTeX Error: Command \end{enumerate} invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43     \end{enumerate}
+                        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./beamerthemebase.tex:43: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43     \end{enumerate}
+                        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./beamerthemebase.tex:43: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43     \end{enumerate}
+                        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./beamerthemebase.tex:43: Missing $ inserted.
+<inserted text> 
+                $
+l.43     \end{enumerate}
+                        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+./beamerthemebase.tex:44: LaTeX Error: \begin{frame} on input line 28 ended by \end{proof}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.44   \end{proof}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./beamerthemebase.tex:47: LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 \end{document}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Completed box being shipped out [1]
+\vbox(8191.99998+0.0)x8191.99998
+.\glue 0.0
+.\vbox(8191.99998+0.0)x8191.99998
+..\vbox(0.0+0.0)x8191.99998
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x8191.99998
+..\glue 0.0
+..\glue(\lineskip) 0.0
+..\vbox(8191.99998+0.0)x8191.99998, glue set 8155.61113fil
+...\glue(\topskip) 10.0
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x20.0
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\baselineskip) 0.0
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x20.0
+....\glue(\rightskip) 0.0
+...\penalty 300
+...\glue(\baselineskip) 0.0
+...\hbox(0.0+0.0)x0.0
+....\glue(\rightskip) 0.0
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\baselineskip) 0.0
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x20.0
+....\glue(\rightskip) 0.0
+...\penalty 150
+...\glue(\baselineskip) 0.0
+...\hbox(0.0+0.0)x0.0
+....\penalty -10000
+....\glue(\rightskip) 0.0
+...\penalty 150
+...\glue(\baselineskip) 0.0
+...\hbox(0.0+0.0)x0.0
+....\glue(\rightskip) 0.0
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\baselineskip) 0.0
+...\hbox(0.0+0.0)x8191.99998, glue set 8171.99998fil
+....\hbox(0.0+0.0)x20.0
+....\hbox(0.0+0.0)x0.0
+.....\glue -0.39998
+.....\vbox(0.0+0.0)x0.79996
+......\glue -0.39998
+......\rule(0.39998+0.0)x*
+......\hbox(0.0+0.0)x0.79996
+.......\rule(*+*)x0.39998
+.......\rule(*+*)x0.39998
+......\rule(0.39998+0.0)x*
+......\glue -0.39998
+.....\glue -0.39998
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\baselineskip) 0.0
+...\hbox(0.0+0.0)x8191.99998, glue set 8171.99998fil
+....\hbox(0.0+0.0)x20.0
+....\glue 0.0
+....\glue 0.0
+....\glue 0.0
+....\glue 0.0
+....\glue 0.0
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\lineskip) 0.0
+...\hbox(6.94444+0.0)x8191.99998, glue set 8078.72287fil
+....\hbox(0.0+0.0)x20.0
+....\hbox(0.0+0.0)x0.0
+.....\glue -0.39998
+.....\vbox(0.0+0.0)x0.79996
+......\glue -0.39998
+......\rule(0.39998+0.0)x*
+......\hbox(0.0+0.0)x0.79996
+.......\rule(*+*)x0.39998
+.......\rule(*+*)x0.39998
+......\rule(0.39998+0.0)x*
+......\glue -0.39998
+.....\glue -0.39998
+....\glue 0.0
+....\glue 0.0
+....\glue 0.0
+....\glue 0.0
+....\glue 0.0
+....\glue 0.0
+....\glue 0.0
+....\glue 0.0
+....\glue 0.0
+....\glue 0.0
+....\OT1/cmr/m/it/10 r
+....\kern-0.51112
+....\OT1/cmr/m/it/10 e
+....\kern-0.51112
+....\OT1/cmr/m/it/10 d
+....\OT1/cmr/m/it/10 u
+....\OT1/cmr/m/it/10 c
+....\OT1/cmr/m/it/10 t
+....\OT1/cmr/m/it/10 i
+....\OT1/cmr/m/it/10 o
+....\glue 3.57774 plus 1.53333 minus 1.0222
+....\OT1/cmr/m/it/10 a
+....\OT1/cmr/m/it/10 d
+....\glue 3.57774 plus 1.53333 minus 1.0222
+....\OT1/cmr/m/it/10 a
+....\OT1/cmr/m/it/10 b
+....\OT1/cmr/m/it/10 s
+....\OT1/cmr/m/it/10 u
+....\OT1/cmr/m/it/10 r
+....\kern-0.51112
+....\OT1/cmr/m/it/10 d
+....\OT1/cmr/m/it/10 u
+....\OT1/cmr/m/it/10 m
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\baselineskip) 0.0
+...\hbox(0.0+0.0)x8191.99998, glue set 8171.99998fil
+....\hbox(0.0+0.0)x20.0
+....\glue 0.0
+....\glue 0.0
+....\glue 0.0
+....\glue 0.0
+....\glue 0.0
+....\glue 0.0
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty 0
+...\glue 0.0 plus 1.0
+...\glue 0.0
+...\glue(\parskip) 0.0
+...\glue(\lineskip) 0.0
+...\hbox(4.30554+1.94444)x8191.99998, glue set 8186.96873fil
+....\hbox(0.0+0.0)x0.0
+.....\glue 0.0
+.....\glue 0.0
+.....\glue 0.0
+.....\hbox(0.0+0.0)x0.0
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\hbox(0.0+0.0)x0.0
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+.....\glue 0.0
+....\penalty 0
+....\glue 0.0
+....\glue 0.0
+....\glue 0.0
+....\mathon
+....\OML/cmm/m/it/10 p
+....\mathoff
+....\glue 0.0
+....\glue 0.0
+....\glue 0.0
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty 0
+...\glue 0.0
+...\glue(\parskip) 0.0
+...\glue(\lineskip) 0.0
+...\hbox(4.30554+1.94444)x8191.99998, glue set 8182.14583fil
+....\hbox(0.0+0.0)x0.0
+.....\glue 0.0
+.....\glue 0.0
+.....\glue 0.0
+.....\hbox(0.0+0.0)x0.0
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\hbox(0.0+0.0)x0.0
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+.....\glue 0.0
+....\penalty 0
+....\glue 0.0
+....\glue 0.0
+....\mathon
+....\OML/cmm/m/it/10 q
+....\kern0.35878
+....\mathoff
+....\glue 0.0
+....\glue 0.0
+....\glue 0.0
+....\glue 0.0
+....\glue 0.0
+....\glue 0.0
+....\glue 0.0
+....\mathon
+....\OML/cmm/m/it/10 p
+....\mathoff
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty 0
+...\glue 0.0
+...\glue(\parskip) 0.0
+...\glue(\lineskip) 0.0
+...\hbox(6.94444+1.94444)x8191.99998, glue set 7851.53267fil
+....\hbox(0.0+0.0)x0.0
+.....\glue 0.0
+.....\glue 0.0
+.....\glue 0.0
+.....\hbox(0.0+0.0)x0.0
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\hbox(0.0+0.0)x0.0
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+.....\glue 0.0
+....\penalty 0
+....\glue 0.0
+....\glue 0.0
+....\mathon
+....\OML/cmm/m/it/10 q
+....\kern0.35878
+....\mathoff
+....\mathon
+....\glue 2.77771 plus 2.77771
+....\OT1/cmr/m/n/10 +
+....\glue 1.66663
+....\mathoff
+....\mathon
+....\OML/cmm/m/it/10 i
+....\OML/cmm/m/it/10 s
+....\OML/cmm/m/it/10 n
+....\OML/cmm/m/it/10 o
+....\OML/cmm/m/it/10 t
+....\OML/cmm/m/it/10 d
+....\OML/cmm/m/it/10 i
+....\OML/cmm/m/it/10 v
+....\kern0.35878
+....\OML/cmm/m/it/10 i
+....\OML/cmm/m/it/10 s
+....\OML/cmm/m/it/10 i
+....\OML/cmm/m/it/10 b
+....\OML/cmm/m/it/10 l
+....\kern0.19678
+....\OML/cmm/m/it/10 e
+....\OML/cmm/m/it/10 b
+....\OML/cmm/m/it/10 y
+....\kern0.35878
+....\OML/cmm/m/it/10 a
+....\OML/cmm/m/it/10 n
+....\OML/cmm/m/it/10 y
+....\kern0.35878
+....\OML/cmm/m/it/10 o
+....\OML/cmm/m/it/10 f
+....\kern1.0764
+....\OML/cmm/m/it/10 t
+....\OML/cmm/m/it/10 h
+....\OML/cmm/m/it/10 e
+....\OML/cmm/m/it/10 m
+....\OML/cmm/m/it/10 :
+....\glue(\thickmuskip) 2.77771 plus 2.77771
+....\OML/cmm/m/it/10 <
+....\penalty 500
+....\glue(\thickmuskip) 2.77771 plus 2.77771
+....\OT1/cmr/m/n/10 1
+....\OMS/cmsy/m/n/10 ^^@
+....\glue(\thickmuskip) 2.77771 plus 2.77771
+....\OML/cmm/m/it/10 >
+....\penalty 500
+....\glue(\thickmuskip) 2.77771 plus 2.77771
+....\OML/cmm/m/it/10 T
+....\kern1.3889
+....\OML/cmm/m/it/10 h
+....\OML/cmm/m/it/10 u
+....\OML/cmm/m/it/10 s
+....\mathoff
+....\mathon
+....\glue 2.77771 plus 2.77771
+....\OT1/cmr/m/n/10 +
+....\glue 1.66663
+....\mathoff
+....\mathon
+....\OML/cmm/m/it/10 i
+....\OML/cmm/m/it/10 s
+....\OML/cmm/m/it/10 a
+....\OML/cmm/m/it/10 l
+....\kern0.19678
+....\OML/cmm/m/it/10 s
+....\OML/cmm/m/it/10 o
+....\OML/cmm/m/it/10 p
+....\OML/cmm/m/it/10 r
+....\kern0.27779
+....\OML/cmm/m/it/10 i
+....\OML/cmm/m/it/10 m
+....\OML/cmm/m/it/10 e
+....\OML/cmm/m/it/10 a
+....\OML/cmm/m/it/10 n
+....\OML/cmm/m/it/10 d
+....\OML/cmm/m/it/10 g
+....\kern0.35878
+....\OML/cmm/m/it/10 r
+....\kern0.27779
+....\OML/cmm/m/it/10 e
+....\OML/cmm/m/it/10 a
+....\OML/cmm/m/it/10 t
+....\OML/cmm/m/it/10 e
+....\OML/cmm/m/it/10 r
+....\kern0.27779
+....\OML/cmm/m/it/10 t
+....\OML/cmm/m/it/10 h
+....\OML/cmm/m/it/10 a
+....\OML/cmm/m/it/10 n
+....\mathoff
+....\mathon
+....\OML/cmm/m/it/10 :
+....\mathoff
+....\glue 0.0
+....\glue 0.0
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -1.94444
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+..\glue(\baselineskip) 0.0
+..\hbox(0.0+0.0)x8191.99998
+
+(./beamerthemebase.aux)
+
+END-TEST-LOG
+
+ ) 
+Here is how much of TeX's memory you used:
+ 47 strings out of 492641
+ 705 string characters out of 6133116
+ 57415 words of memory out of 5000000
+ 4022 multiletter control sequences out of 15000+600000
+ 3986 words of font info for 15 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 18i,4n,12p,123b,119s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on beamerthemebase.pdf (1 page, 41682 bytes).
+PDF statistics:
+ 22 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

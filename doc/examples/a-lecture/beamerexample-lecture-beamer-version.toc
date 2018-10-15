@@ -1,0 +1,13 @@
+\babel@toc {german}{}
+\beamer@sectionintoc {2}{Was ist Syntax?}{4}{0}{1}
+\beamer@subsectionintoc {2}{1}{Syntax nat\"urlicher Sprachen}{5}{0}{1}
+\beamer@subsectionintoc {2}{2}{Syntax von Programmiersprachen}{9}{0}{1}
+\beamer@subsectionintoc {2}{3}{Syntax logischer Sprachen}{13}{0}{1}
+\beamer@sectionintoc {3}{Was ist Semantik?}{15}{0}{2}
+\beamer@subsectionintoc {3}{1}{Semantik nat\"urlicher Sprachen}{15}{0}{2}
+\beamer@subsectionintoc {3}{2}{Semantik von Programmiersprachen}{18}{0}{2}
+\beamer@subsectionintoc {3}{3}{Semantik logischer Sprachen}{20}{0}{2}
+\beamer@sectionintoc {4}{Grundlage der Syntax: Text}{20}{0}{3}
+\beamer@subsectionintoc {4}{1}{Alphabete}{21}{0}{3}
+\beamer@subsectionintoc {4}{2}{Worte}{22}{0}{3}
+\beamer@subsectionintoc {4}{3}{Sprachen}{24}{0}{3}
