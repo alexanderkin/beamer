@@ -54,7 +54,7 @@
 {Assessing the Heterogeneous Impact of Climate Change on Bird Biodiversity in the United States}
 
 \author[Luoye Chen] % (optional, use only with lots of authors)
-{Luoye Chen\inst{1}}
+{Luoye Chen\\ Madhu Khanna\inst{1}}
 % - Give the names in the same order as the appear in the paper.
 % - Use the \inst{?} command only if the authors have different
 %   affiliation.
@@ -68,8 +68,8 @@
 % - Use the \inst command only if there are several affiliations.
 % - Keep it simple, no one is interested in your street address.
 
-\date[CFP 2003] % (optional, should be abbreviation of conference name)
-{pERE Seminar, Oct 15th, 2018}
+\date[pERE 2018] % (optional, should be abbreviation of conference name)
+{Grad Research Seminar, Nov 30th, 2018}
 % - Either use conference name or its abbreviation.
 % - Not really informative to the audience, more for people (including
 %   yourself) who are reading the slides online
@@ -93,7 +93,7 @@
 % the beginning of each subsection:
 \AtBeginSubsection[]
 {
-  \begin{frame}<beamer>{Outline}
+  \begin{frame}<beamer>{OUTLINE}
     \tableofcontents[currentsection,currentsubsection]
   \end{frame}
 }
@@ -111,7 +111,7 @@
   \titlepage
 \end{frame}
 
-\begin{frame}{Outline}
+\begin{frame}{OUTLINE}
   \tableofcontents
   % You might wish to add the option [pausesections]
 \end{frame}
@@ -144,17 +144,17 @@
 
   \begin{itemize}
   \item
-    Biodiversity
+    Biodiversity: measures of the joint dissimilarity among a set of species (Polasky,2005).
     \begin{itemize}
       \item Abundance: number of birds
       \item Species richness: number of bird species
       \item Species evenness: the level of how close in numbers each species in a community is
     \end{itemize}
   \item
-   A source of lost economic and ecological opportunity
+   A source of economic and ecological opportunity
     \begin{itemize}
-      \item Hunting and recreational value (Nocera and Koslowsky,2017)
-      \item Crucial ecosystem services (Frank,2018; Dissanayake and Ando,2014)
+      \item Hunting and recreational value (Nocera and Koslowsky, 2017)
+      \item Crucial ecosystem services (Frank,2018; Dissanayake and Ando, 2014)
       \item Indicators of the health of the environment (NABCI,2014)
     \end{itemize}
 
@@ -162,68 +162,27 @@
 \end{frame}
 
 \begin{frame}
-\begin{figure}[h]
-%\caption{Table 1 Summary statistics}
-\centering
-%\includegraphics[width=0.6\textwidth]{fig1.png}
-\multiinclude[format=png,start=1,graphics={width=0.75\textwidth}]{bird}
-\end{figure}
+  \includegraphics[width=0.8\textwidth]{bird-1.png}
 
-{\footnotesize  Source: North American Bird Conservation Initiative, U. S. Committee. 2016. The State of the Birds 2017: A Farm Bill Special Report. (http://www.stateofthebirds.org/2016/overview/results-summary/)}
+  {\footnotesize  Source: North American Breeding Survey Data}
 \end{frame}
 
 \begin{frame}
-\begin{figure}[h]
-%\caption{Table 1 Summary statistics}
-\centering
-%\includegraphics[width=0.6\textwidth]{fig1.png}
-\end{figure}
+  \includegraphics[width=0.8\textwidth]{bird-2.png}
+
+  {\footnotesize  Source: North American Bird Conservation Initiative, U. S. Committee. 2016. The State of the Birds 2017: A Farm Bill Special Report. (http://www.stateofthebirds.org/2016/overview/results-summary/)}
 \end{frame}
 
-\begin{frame}{Make Titles Informative.}
-
-  You can create overlays\dots
-  \begin{itemize}
-  \item using the \texttt{pause} command:
-    \begin{itemize}
-    \item
-      First item.
-      \pause
-    \item
-      Second item.
-    \end{itemize}
-  \item
-    using overlay specifications:
-    \begin{itemize}
-    \item<3->
-      First item.
-    \item<4->
-      Second item.
-    \end{itemize}
-  \item
-    using the general \texttt{uncover} command:
-    \begin{itemize}
-      \uncover<5->{\item
-        First item.}
-      \uncover<6->{\item
-        Second item.}
-    \end{itemize}
-  \end{itemize}
-\end{frame}
 
 \begin{frame}{WHY WORRY ABOUT CLIMATE AND BIRD BIODIVERSITY}
   \begin{itemize}
     \item There are many reasons why climatic factors might influence birds
-    \pause
     \begin{itemize}
       \item Reduce reproductive and hatching success (Both and Visser, 2001; Miller-Rushing et al., 2008; Popoly et al., 2013)
       \item Advance the food peak (availability of insects) (McKechnie and Wolf, 2010; Welbergen e al., 2008)
-      \pause
     \end{itemize}
-    \item The current climate is highly variable, but forecast now provide planning and risk-management opportunities for conservation policy.
-    \pause
-    \item The global climate is changing, will bird biodiversity adjust/adapt in response?
-    \pause
+    \item Provide risk-management opportunities and quantify the net economic impact of changing climate condition on US's bird biodiversity.
+    \item Relevant to the formation of US's national conservation policies.
   \end{itemize}
 \end{frame}
 
@@ -238,6 +197,31 @@
 \end{frame}
 
 \subsection{Previous Work}
+
+\begin{frame}{Identification Challenge I}
+     \begin{block}{Marginal Treatment Comparability Assumption (Hsiang, 2016)}
+     The effect of a marginal change in the distribution of weather is the same as the effect of an analogous marginal changes in the climate
+     \end{block}
+     \begin{itemize}
+       \item Average or Distributions
+       \item Nonlinearity
+     \end{itemize}
+\end{frame}
+
+\begin{frame}{Climate or weather?}
+  \begin{figure}[h]
+  %\caption{Table 1 Summary statistics}
+  \centering
+  \includegraphics[width=0.6\textwidth]{climate_weather.png}
+  \end{figure}
+  Source: Deryugina \& Hsiang(2014)
+\end{frame}
+
+\begin{frame}{Identification Challenge II}
+     \begin{block}{Unit Homogeneity Assumption (Burke and Emerick, 2016; Dell 2014; Hsiang, 2016)}
+       Unobserved geographycal/geomorphology factors (e.g., elevation)
+     \end{block}
+\end{frame}
 
 \begin{frame}{How does the climate change affect biodiversity}
   \begin{itemize}
@@ -254,15 +238,6 @@
   \end{itemize}
 \end{frame}
 
-\begin{frame}{Climate or weather?}
-  \begin{figure}[h]
-  %\caption{Table 1 Summary statistics}
-  \centering
-  \includegraphics[width=0.6\textwidth]{climate_weather.png}
-  \end{figure}
-  Source: Deryugina \& Hsiang(2014)
-\end{frame}
-
 \begin{frame}{HYPOTHESIS}
   \begin{itemize}
     \item \alert{Hypothesis 1:}The abundance, species richness, and evenness of generalist birds will increase with additional high-tempearture days, while those of specialist birds will decrease with additional high-temperature days.
@@ -271,14 +246,10 @@
   \end{itemize}
 \end{frame}
 
-\begin{frame}{OBJECTIVE??}
-  \begin{itemize}
-    \item
-    To examine the effects of climate change on whole bird population and two subgroups of bird species (specialist, generalist) by using three different metrics of birds: the number of birds, number of bird species and Shannon-weaver index on U.S. continent from 1981 to 2015.
-    \item
-    To provide large-scale empirical evidence on whether and to what extent the impact of climate change will be offset in the long-term due to the adaptation and evolution of bird population.
-  \end{itemize}
+\begin{frame}{Mechanism/Decomposition}
+     Previous literature
 \end{frame}
+
 
 \section{Data and methods}
 \begin{frame}{DATA}
@@ -309,6 +280,11 @@
   \end{figure}
 \end{frame}
 
+\begin{frame}{Route Map}
+  Route Map attached here
+\end{frame}
+
+
 \begin{frame}{Temperature bins}
   \begin{figure}[h]
   %\caption{Table 1 Summary statistics}
@@ -317,49 +293,62 @@
   \end{figure}
 \end{frame}
 
-\begin{frame}{MODEL}
+\begin{frame}{MODEL: Basic panel approach}
   \begin{itemize}
-    \item Panel approach, the standard is clear
-    \pause
-    \item Account for potential omitted variables
-    \begin{itemize}
-      \item Time-invariant stuff
-      \item Time trending stuff: linear/nonlinear trends
+      \item Time-invariant factor
+      \item Time trending factor: linear/nonlinear trends
     \end{itemize}
     \begin{equation}
       \begin{aligned}
-        B_{i,t}=\alpha + \sum_{z=1}^{36} \beta_{FE, z}C_{i,t,z} + \gamma D_{i,t} + \mu_i + \phi_t + \epsilon_{i,t},\\ \textit{$i=1,...,N$ and $t=1,...,T$}
+        B_{i,t}=\alpha + \sum_{z=1}^{36} \beta_{FE, z}C_{i,t,z} + \gamma D_{i,t} + \mu_i + \phi_t + \epsilon_{i,t} \\ \textit{$i=1,...,N$ and $t=1,...,T$}
         \label{equ:e1}
       \end{aligned}
     \end{equation}
-    \item Bad controls
+    \begin{block}{Identification Assumption}
+    comparing the route i across 35 years; variation comes from the natural climate variability, especially the large differential warming trends observed over the United States. We assume the recent climate trends are exogenous.
+   \end{block}
+\end{frame}
+
+
+\begin{frame}{Omitted variables concern: local land use}
+    \begin{itemize}
+      \item Bad control: Local land use change adjust to the climate
+      \item No annual national-level land cover dataset
+    \end{itemize}
+    But we argue the omitted variable concerns would have a limited effect on identification based on:
+    \begin{itemize}
+      \item Lots of bird survey routes are located in the middle of forest and pasture lands; thereby expansion of residential housing land or cropland would have limited impact on them.
+      \item Little change in either land area or land management practice (e.g., Burke and Emerick (2016a) use county-level data from 1950-2005)
+    \end{itemize}
+\end{frame}
+
+
+
+\begin{frame}{MODEL: Long difference approach}
+  \begin{itemize}
+    \item Estimates of short-run responses to weather might not  bound estimates of longer run response to climate
+\begin{equation}
+    \Delta \bar{B}_{i,s} = \beta_{LD} \Delta \bar{C}_{i,s} + \gamma_s + \epsilon_{i,s}
+    \label{equ:e2}
+\end{equation}
+In equation \eqref{equ:e2}, $\Delta \bar{B}_{i,s}$ is the change in bird metrics $B$ in route $i$ and region $s$ between two period $[t_a,t_b]$ far apart from each other.
+\[
+\Delta \bar{B}_{i,s} = \bar{B}_{i,t_b} - \bar{B}_{i,t_a} = \frac{1}{T} \sum_{t \in b} B_{i,t} - \frac{1}{T} \sum_{t \in a} B_{i,t}
+\]
   \end{itemize}
 \end{frame}
 
-\begin{frame}{MODEL}
-  \begin{itemize}
-    \item Linear adaptation $\rightarrow$ Panel Approach
-    \item Adaption at the end of the study period $\rightarrow$ overestimate by panel approach
-    \item Eestimates of short-run responses to weather might not  bound estimates of longer run response to climate
-    \begin{equation}
-      \begin{aligned}
-        \bar{B}_{i,t_b} - \bar{B}_{i,t_a} = \alpha + \beta_{LD}(\bar{C}_{i,t_b,t} - \bar{C}_{i,t_a,t}) + \gamma_i + \epsilon_i
-        \label{equ:e2} \\
-        \textit{Multiyear periods a and b, each spanning T years} \\
-        \bar{B}_{i,t_b} = \frac{1}{T} \sum_{t \in b} B_{i,t} \\ \bar{B}_{i,t_a} = \frac{1}{T} \sum_{t \in a} B_{i,t}
-      \end{aligned}
-    \end{equation}
-    \hyperlink{Long Difference}{\beamerbutton{here}}
-  \end{itemize}
+\begin{frame}{MODEL: Long difference approach}
+    \begin{block}{Identification Assumptions}
+      \begin{itemize}
+        \item Comparing route i in region s across two periods far part in time (e.g., decades)
+        \item variation comes from graduate change of climate in these two periods.
+        \item We assume the climiate are exogenous.
+      \end{itemize}
+    \end{block}
+
 \end{frame}
 
-\begin{frame}{MODEL}
-  \begin{itemize}
-    \item Long differences approximation utilizes variation in longer run climate change
-    \item Immune to time-invariant omitted Variables
-    \item The relationship between climate and bird biodiversity is estimated from long-term changes in average conditions instead of short-run year-to-year variation.
-  \end{itemize}
-\end{frame}
 
 \begin{frame}{Long Difference}
 %  \begin{tikzpicture}
@@ -388,7 +377,7 @@
 }
 \end{frame}
 
-\section{Our Results/Contribution}
+\section{Results}
 
 \subsection{Main Results}
 
@@ -396,7 +385,7 @@
   \begin{figure}[h]
   %\caption{Table 1 Summary statistics}
   \centering
-  \includegraphics[width=0.85\textwidth]{main_result.png}
+  \includegraphics[width=0.7\textwidth]{main_result.png}
   \end{figure}
 \end{frame}
 
@@ -425,6 +414,9 @@
 \end{frame}
 
 \begin{frame}{Long-run adaptation}
+  \begin{itemize}
+    \item \%Adaptation = $1-\frac{\beta_{LD}}{\beta_{FE}}$
+  \end{itemize}
   \begin{figure}[h]
   %\caption{Table 1 Summary statistics}
   \centering
@@ -446,7 +438,7 @@
 
 
 
-\section*{Summary}
+\section*{SUMMARY}
 
 \begin{frame}{Summary}
 
@@ -454,7 +446,7 @@
   \footnotesize
   \begin{itemize}
   \item
-  Overall, for the whole bird group, my results showed climate change had a significant impact on biodiversity of bird species in routes that were distributed across the United States.
+  Overall, for the whole bird group, my results showed increase in the high-temperatuer days had a significant impact on biodiversity of bird species in routes that were distributed across the United States.
   \item
     Swapping a day in the 0-15 °C range for one above 25 °C increases the decline of bird abundance, species richness and evenness by approximately 0.2\%~0.5\%.
   \item
