@@ -45,7 +45,14 @@
 
 % Or whatever. Note that the encoding and the font should match. If T1
 % does not look nice, try deleting the line with the fontenc.
-
+\addtobeamertemplate{navigation symbols}{}{%
+    \usebeamerfont{footline}%
+    \usebeamercolor[fg]{footline}%
+    \hspace{1em}%
+    \insertframenumber/\inserttotalframenumber
+}
+\setbeamercolor{footline}{fg=black}
+\setbeamerfont{footline}{series=\bfseries}
 
 \title[Sauce for the Goose is not Sauce for the Gander] % (optional, use only with long paper titles)
 {Sauce for the Goose is not Sauce for the Gander}
@@ -199,13 +206,23 @@
 \subsection{Previous Work}
 
 \begin{frame}{Identification Challenge I}
+   \begin{itemize}
+     \item Most of the climatic variables are exogenous (Dell et al., 2014)
+     \item Cross-sectional variation (Hamer et al., 2006; Laaksonen and Lehikoinen, 2013; Illan et al., 2014)
+   \end{itemize}
+     \begin{block}{Unit Homogeneity Assumption (Burke and Emerick, 2016; Dell 2014; Hsiang, 2016)}
+       Unobserved geographycal/geomorphology factors (e.g., elevation)
+     \end{block}
+\end{frame}
+
+\begin{frame}{Identification Challenge II}
+     \begin{itemize}
+       \item Average temperature, precipitation (Review in Saether et al., 2004; Davey et al., 2012)
+       \item Nonlinearity
+     \end{itemize}
      \begin{block}{Marginal Treatment Comparability Assumption (Hsiang, 2016)}
      The effect of a marginal change in the distribution of weather is the same as the effect of an analogous marginal changes in the climate
      \end{block}
-     \begin{itemize}
-       \item Average or Distributions
-       \item Nonlinearity
-     \end{itemize}
 \end{frame}
 
 \begin{frame}{Climate or weather?}
@@ -217,26 +234,6 @@
   Source: Deryugina \& Hsiang(2014)
 \end{frame}
 
-\begin{frame}{Identification Challenge II}
-     \begin{block}{Unit Homogeneity Assumption (Burke and Emerick, 2016; Dell 2014; Hsiang, 2016)}
-       Unobserved geographycal/geomorphology factors (e.g., elevation)
-     \end{block}
-\end{frame}
-
-\begin{frame}{How does the climate change affect biodiversity}
-  \begin{itemize}
-    \item Ambigous direction of effects
-    \item Measurement of climate
-    \hyperlink{Climate or weather}{\beamerbutton{here}}
-    \begin{itemize}
-      \item Average or distribution
-      \item Nonlinearity
-    \end{itemize}
-    \item Bird metrics: multidimensional concepts
-    \item Generalist birds/specieslist birds
-    \item Unobserved geophysical/geomorphology factors(e.g. elevation etc)
-  \end{itemize}
-\end{frame}
 
 \begin{frame}{HYPOTHESIS}
   \begin{itemize}
@@ -244,10 +241,6 @@
     \item \alert{Hypothesis 2:}Bird metrics (abundance, species richness, and species evenness) in the drier regions will respond more negatively to increase in the high-temperature days.
     \item \alert{Hypothesis 3:}The potential negative impact of an increase in the high-temperature days on bird abundance, species richness, and evenness will be mitigated in the long-run.
   \end{itemize}
-\end{frame}
-
-\begin{frame}{Mechanism/Decomposition}
-     Previous literature
 \end{frame}
 
 
@@ -280,10 +273,6 @@
   \end{figure}
 \end{frame}
 
-\begin{frame}{Route Map}
-  Route Map attached here
-\end{frame}
-
 
 \begin{frame}{Temperature bins}
   \begin{figure}[h]
@@ -294,13 +283,9 @@
 \end{frame}
 
 \begin{frame}{MODEL: Basic panel approach}
-  \begin{itemize}
-      \item Time-invariant factor
-      \item Time trending factor: linear/nonlinear trends
-    \end{itemize}
     \begin{equation}
       \begin{aligned}
-        B_{i,t}=\alpha + \sum_{z=1}^{36} \beta_{FE, z}C_{i,t,z} + \gamma D_{i,t} + \mu_i + \phi_t + \epsilon_{i,t} \\ \textit{$i=1,...,N$ and $t=1,...,T$}
+        B_{i,t}=\alpha + \sum_{z=1}^{36} \textcolor{red}{\beta_{FE, z}} C_{i,t,z} + \gamma D_{i,t} + \mu_i + \phi_t + \epsilon_{i,t} \\ \textit{$i=1,...,N$ and $t=1,...,T$}
         \label{equ:e1}
       \end{aligned}
     \end{equation}
@@ -319,6 +304,7 @@
     \begin{itemize}
       \item Lots of bird survey routes are located in the middle of forest and pasture lands; thereby expansion of residential housing land or cropland would have limited impact on them.
       \item Little change in either land area or land management practice (e.g., Burke and Emerick (2016a) use county-level data from 1950-2005)
+      \item County-by-year fixed effect to absorb the shock from annual change of management practice in a specific county
     \end{itemize}
 \end{frame}
 
@@ -328,7 +314,7 @@
   \begin{itemize}
     \item Estimates of short-run responses to weather might not  bound estimates of longer run response to climate
 \begin{equation}
-    \Delta \bar{B}_{i,s} = \beta_{LD} \Delta \bar{C}_{i,s} + \gamma_s + \epsilon_{i,s}
+    \Delta \bar{B}_{i,s} = \textcolor{red}{\beta_{LD}} \Delta \bar{C}_{i,s} + \textcolor{red}{\gamma_s} + \epsilon_{i,s}
     \label{equ:e2}
 \end{equation}
 In equation \eqref{equ:e2}, $\Delta \bar{B}_{i,s}$ is the change in bird metrics $B$ in route $i$ and region $s$ between two period $[t_a,t_b]$ far apart from each other.
@@ -342,11 +328,10 @@ In equation \eqref{equ:e2}, $\Delta \bar{B}_{i,s}$ is the change in bird metrics
     \begin{block}{Identification Assumptions}
       \begin{itemize}
         \item Comparing route i in region s across two periods far part in time (e.g., decades)
-        \item variation comes from graduate change of climate in these two periods.
-        \item We assume the climiate are exogenous.
+        \item Within-region variation, eliminating any concerns of time-trending unobservables at the region level (e.g., county level)
+        \item We assume the climiate trends are exogenous.
       \end{itemize}
     \end{block}
-
 \end{frame}
 
 
@@ -381,7 +366,7 @@ In equation \eqref{equ:e2}, $\Delta \bar{B}_{i,s}$ is the change in bird metrics
 
 \subsection{Main Results}
 
-\begin{frame}{Difference Measures}
+\begin{frame}{Main Result}
   \begin{figure}[h]
   %\caption{Table 1 Summary statistics}
   \centering
@@ -389,38 +374,36 @@ In equation \eqref{equ:e2}, $\Delta \bar{B}_{i,s}$ is the change in bird metrics
   \end{figure}
 \end{frame}
 
-\begin{frame}{Different Measures-Decomposition}
-  \begin{figure}[h]
-  %\caption{Table 1 Summary statistics}
-  \centering
-  \includegraphics[width=0.8\textwidth]{result_mreasure1.png}
-  \end{figure}
-\end{frame}
-
-\begin{frame}{Different Measures-Decomposition(con't)}
-  \begin{figure}[h]
-  %\caption{Table 1 Summary statistics}
-  \centering
-  \includegraphics[width=1\textwidth]{result_mreasure2.png}
-  \end{figure}
-\end{frame}
-
-\begin{frame}{Different species/regions}
-  \begin{figure}[h]
-  %\caption{Table 1 Summary statistics}
-  \centering
-  \includegraphics[width=0.85\textwidth]{result_region.png}
-  \end{figure}
-\end{frame}
-
-\begin{frame}{Long-run adaptation}
+\begin{frame}{Statistical testing: does $\beta_{FE}$ close to $\beta_{LD}$}
   \begin{itemize}
     \item \%Adaptation = $1-\frac{\beta_{LD}}{\beta_{FE}}$
   \end{itemize}
+\includegraphics[width=0.5\textwidth]{long_diff1.png}%
+\includegraphics[width=0.5\textwidth]{long_diff2.png}
+\end{frame}
+
+\begin{frame}{Mechanism: Different Measures-Decomposition}
   \begin{figure}[h]
   %\caption{Table 1 Summary statistics}
   \centering
-  \includegraphics[width=1\textwidth]{result_adaptation.png}
+  \includegraphics[width=0.9\textwidth]{result_mreasure1.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{Mechanism: Different Measures-Decomposition(con't)}
+%  \begin{figure}[h]
+  %\caption{Table 1 Summary statistics}
+%  \centering
+  \includegraphics[width=0.5\textwidth]{bird_figure2b}%
+  \includegraphics[width=0.5\textwidth]{bird_figure2c}
+%  \end{figure}
+\end{frame}
+
+\begin{frame}{Mechanism: Different species/regions}
+  \begin{figure}[h]
+  %\caption{Table 1 Summary statistics}
+  \centering
+  \includegraphics[width=0.9\textwidth]{bird_figure3.png}
   \end{figure}
 \end{frame}
 
@@ -431,7 +414,7 @@ In equation \eqref{equ:e2}, $\Delta \bar{B}_{i,s}$ is the change in bird metrics
    \item Temperature bins: 1/5/10 °C bins
    \item Measurement error
    \item Distributed Lag model
-   \item Clustering: robust/state/ecoregion/climatic region
+   \item Clustering: robust/county + year-by-state/ecoregion
    \item Outliers
  \end{itemize}
 \end{frame}
@@ -446,17 +429,21 @@ In equation \eqref{equ:e2}, $\Delta \bar{B}_{i,s}$ is the change in bird metrics
   \footnotesize
   \begin{itemize}
   \item
-  Overall, for the whole bird group, my results showed increase in the high-temperatuer days had a significant impact on biodiversity of bird species in routes that were distributed across the United States.
+  Overall, for the whole bird group, increase in the high-temperatuer days had a significant impact on biodiversity of bird species in routes that were distributed across the United States.
+  \item The long-run adaptation has offset only 20\% of the negative short-term impact of extreme heat(>25 °C) on bird species richness. Birds has no more adaptation to extreme heat in the long run.
   \item
-    Swapping a day in the 0-15 °C range for one above 25 °C increases the decline of bird abundance, species richness and evenness by approximately 0.2\%~0.5\%.
+    Swapping a standard deviation of days in the 0-15 °C range for ones above 25 °C increases the decline of bird abundance, species richness and evenness by approximately 1\%~2.5\%.
   \item
   The impact of additional extreme heat temperature days (>25 °C degree) on specialist birds is almost three times larger than the generalist birds.
   \item
   Effect in the western and northern region will be more negative on the bird abundance(-1.5\%), species richness(-0.6\%) and Shannon-weaver index(-0.6\%).
-  \item
-  The long-run adaptation has offset only 20\% of the negative short-term impact of extreme heat(>25 °C) on bird species richness. Birds has no more adaptation to extreme heat in the long run.
   \end{itemize}
 \end{frame}
 
+\begin{frame}{Summary}
+  \item The average WTP to pay for each bird species in one birding trip is \$3.38 [1.97, 4.88] (Kolstoe and Cameron, 2017).
+  \item In 2011, the Oregon state and Washing States has 4 million and 5.2 million birding trips, respectively (FHWAR survey, 2011).
+  \item The economic loss yields average \$18 million.
+\end{frame}
 
 \end{document}
