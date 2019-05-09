@@ -1,0 +1,362 @@
+% $Header$
+
+\documentclass[handout]{beamer}
+
+% This file is a solution template for:
+
+% - Talk at a conference/colloquium.
+% - Talk length is about 20min.
+% - Style is ornate.
+
+
+
+% Copyright 2004 by Till Tantau <tantau@users.sourceforge.net>.
+%
+% In principle, this file can be redistributed and/or modified under
+% the terms of the GNU Public License, version 2.
+%
+% However, this file is supposed to be a template to be modified
+% for your own needs. For this reason, if you use this file as a
+% template and not specifically distribute it as part of a another
+% package/program, I grant the extra permission to freely copy and
+% modify this file as you see fit and even to delete this copyright
+% notice.
+
+
+\mode<presentation>
+{
+  \usetheme{Warsaw}
+  % or ...
+
+  \setbeamercovered{transparent}
+  % or whatever (possibly just delete it)
+}
+
+
+\usepackage[english]{babel}
+% or whatever
+\usepackage{tkz-euclide}
+\usepackage[latin1]{inputenc}
+% or whatever
+\usepackage{xmpmulti}
+\usepackage{times}
+\usepackage[T1]{fontenc}
+\usepackage{tikz}
+
+% Or whatever. Note that the encoding and the font should match. If T1
+% does not look nice, try deleting the line with the fontenc.
+\addtobeamertemplate{navigation symbols}{}{%
+    \usebeamerfont{footline}%
+    \usebeamercolor[fg]{footline}%
+    \hspace{1em}%
+    \insertframenumber/\inserttotalframenumber
+}
+\setbeamercolor{footline}{fg=black}
+\setbeamerfont{footline}{series=\bfseries}
+
+\title[Sauce for the Goose is not Sauce for the Gander] % (optional, use only with long paper titles)
+{Sauce for the Goose is not Sauce for the Gander}
+
+\subtitle
+{Assessing the Heterogeneous Impact of Climate Change on Bird Biodiversity in the United States}
+
+\author[Luoye Chen] % (optional, use only with lots of authors)
+{Luoye Chen\\ Madhu Khanna\inst{1}}
+% - Give the names in the same order as the appear in the paper.
+% - Use the \inst{?} command only if the authors have different
+%   affiliation.
+
+\institute[UIUC-ACE] % (optional, but mostly needed)
+{
+  \inst{1}%
+  Department of Agricultural and Consumer Economics\\
+  University of Illinois
+}
+% - Use the \inst command only if there are several affiliations.
+% - Keep it simple, no one is interested in your street address.
+
+\date[pERE 2018] % (optional, should be abbreviation of conference name)
+{pERE Seminar, April 29th, 2019}
+% - Either use conference name or its abbreviation.
+% - Not really informative to the audience, more for people (including
+%   yourself) who are reading the slides online
+
+\subject{Environmental Economics}
+% This is only inserted into the PDF information catalog. Can be left
+% out.
+
+
+
+% If you have a file called "university-logo-filename.xxx", where xxx
+% is a graphic format that can be processed by latex or pdflatex,
+% resp., then you can add a logo as follows:
+
+% \pgfdeclareimage[height=0.5cm]{university-logo}{university-logo-filename}
+% \logo{\pgfuseimage{university-logo}}
+
+
+
+% Delete this, if you do not want the table of contents to pop up at
+% the beginning of each subsection:
+\AtBeginSubsection[]
+{
+  \begin{frame}<beamer>{OUTLINE}
+    \tableofcontents[currentsection,currentsubsection]
+  \end{frame}
+}
+
+
+% If you wish to uncover everything in a step-wise fashion, uncomment
+% the following command:
+
+%\beamerdefaultoverlayspecification{<+->}
+
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{OUTLINE}
+  \tableofcontents
+  % You might wish to add the option [pausesections]
+\end{frame}
+
+
+% Structuring a talk is a difficult task and the following structure
+% may not be suitable. Here are some rules that apply for this
+% solution:
+
+% - Exactly two or three sections (other than the summary).
+% - At *most* three subsections per section.
+% - Talk about 30s to 2min per frame. So there should be between about
+%   15 and 30 frames, all told.
+
+% - A conference audience is likely to know very little of what you
+%   are going to talk about. So *simplify*!
+% - In a 20min talk, getting the main ideas across is hard
+%   enough. Leave out details, even if it means being less precise than
+%   you think necessary.
+% - If you omit details that are vital to the proof/implementation,
+%   just say so once. Everybody will be happy with that.
+
+\section{Motivation}
+
+\subsection{Climate change and bird biodiversity}
+
+\begin{frame}{Decline of bird population in the US}
+  \includegraphics[width=0.8\textwidth]{bird-1.png}\\
+  {\footnotesize  Source: North American Breeding Survey Data}
+\end{frame}
+
+\begin{frame}{Decline of bird population in the US}
+\begin{itemize}
+  \item Loss of habitat due to the expansion in agricultural and urban land use (Nocera and Koslowsky et al., 2011; Evans and Potts, 2015; Bairlein, 2016)
+  \item Evidence from case studies:
+  \begin{itemize}
+  \item High temperature beyond the physiological limits of birds can directly reduce the reproductive and hatching success for some bird species (Pipoly et al., 2013)
+  \item Indirectly increasing the occurrence of bird mortality events through affecting the food availability for birds (MeKechnie and Wolf, 2010; Davey et al., 2012)
+   \end{itemize}
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Bird biodiversity}
+  % - A title should summarize the slide in an understandable fashion
+  %   for anyone how does not follow everything on the slide itself.
+  \begin{itemize}
+    \item Biodiversity: measures of the joint dissimilarity among a set of species (Polasky,2005).
+    \begin{itemize}
+      \item Abundance: number of birds (Stephen et al.,2016)
+      \item Species richness: number of bird species (Albright et al.,2010)
+      \item Species evenness: shannon-weaver index (Davey et al., 2012)
+    \end{itemize}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Literature Review}
+  The effect of climate change on bird biodiversity:
+\begin{itemize}
+  \item different across various bird metrics (Davey et al., 2012; Yen et al., 2017)
+  \item vary for different types of species due to their various abilities to adapt (Davey et al., 2013)
+  \item bird populations are able to adjust their behavior and adapt to the changing climatic conditions over decades (Charmantier and Gienapp, 2014).
+\end{itemize}
+Gaps:
+\begin{itemize}
+  \item causal evidence of the link between climate and bird biodiversity in the U.S. is still limited (Auffhammer, 2018)
+  \begin{itemize}
+    \item Time-invariant geophysical or demographic characteristics matter
+    \item Short-run effect and long-run effect
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Research question}
+  \begin{itemize}
+    \item What is the quantitative evidence for a general linkage between climate and bird biodiversity
+    \begin{itemize}
+      \item Heterogeneity across bird metrics, species and regions
+      \item Short-run and Long-run effect
+    \end{itemize}
+  \end{itemize}
+\end{frame}
+
+
+
+\section{Data and methods}
+\begin{frame}{Data}
+  \begin{itemize}
+    \item Northern American breeding bird survey (BBS) data
+    \hyperlink{BBS routes}{\beamerbutton{here}}
+    \begin{itemize}
+      \item
+      Annually survey data of bird population and species(1981-2015)
+      \item
+      3985 survey routes across the U.S.
+      \item
+      24.5-miles-long survey route with fifty stops situated ideally half-mile apart
+      \item
+      Time-varying convariates like sky or wind condition
+    \end{itemize}
+    \item NABCI species assessment database
+    \item PRISM daily weather information $\rightarrow$ temperature bins
+    \hyperlink{Temperature bins}{\beamerbutton{here}}
+  \end{itemize}
+\end{frame}
+
+
+\begin{frame}{Model: Basic panel approach}
+    Using the variation in climate within a given area over 35 years to elimiate concerns of unobservable time-invariant factors
+    \begin{block}{Identification Assumption}
+    variation comes from the natural climate variability, especially the large differential warming trends observed over the United States. We assume the recent climate trends are exogenous.
+   \end{block}
+\end{frame}
+
+
+
+
+\begin{frame}{Model: Long difference approach}
+    Comparing route i in region s across two periods far part in time (e.g., decades)
+    \begin{block}{Identification Assumptions}
+      \begin{itemize}
+        \item Within-region variation, eliminating any concerns of time-trending unobservables at the region level (e.g., county level)
+        \item We assume the climiate trends are exogenous.
+      \end{itemize}
+    \end{block}
+\end{frame}
+
+
+\begin{frame}{Model: Long difference approach}
+%  \begin{tikzpicture}
+%    \tkzInit[xmin=1983,xmax=2015]
+%    \tkzGrid[sub,color=gray, subxstep=1]
+%    \tkzAxeXY[very thick]
+    %\tkzGrid
+%  \end{tikzpicture}
+\tikz{
+ \node (a) at (0,0) {1981};
+ \node (b) at (1.5,0) {1983};
+ \node (c) at (3,0) {1985};
+ \node (d) at (4.5,0) {...};
+ \node (e) at (6,0) {2011};
+ \node (f) at (7.5,0) {2013};
+ \node (g) at (9,0) {2015};
+ \node (h) at (1.5,-1) {$\frac{1}{5}\sum_{t=1981}^{1985}{Temp_i}$};
+ \node (h) at (7.5,-1) {$\frac{1}{5}\sum_{t=2011}^{2015}{Temp_i}$};
+ \node (i) at (4.5,-2) {$\Delta_{long \ diff}$};
+ \draw[decoration={brace,mirror,raise=10pt},decorate]
+  (0,0) -- (3,0) ;
+ \draw[decoration={brace,mirror,raise=10pt},decorate]
+   (6,0) -- (9,0) ;
+  \draw[decoration={brace,mirror,raise=10pt},decorate]
+     (1.5,-1) -- (7.5,-1) ;
+}
+\end{frame}
+
+\section{Results}
+\subsection{Main Results}
+
+\begin{frame}{Main results}
+  \begin{figure}[h]
+  %\caption{Table 1 Summary statistics}
+  \centering
+  \includegraphics[width=0.9\textwidth]{result_mreasure1.png}
+  \end{figure}
+\end{frame}
+
+
+
+
+\begin{frame}{Statistical testing: does $\beta_{FE}$ close to $\beta_{LD}$}
+  \begin{itemize}
+    \item \%Adaptation = $1-\frac{\beta_{LD}}{\beta_{FE}}$
+  \end{itemize}
+\includegraphics[width=0.5\textwidth]{long_diff1.png}%
+\includegraphics[width=0.5\textwidth]{long_diff2.png}
+\end{frame}
+
+
+
+\begin{frame}{Mechanism: different measures-decomposition}
+%  \begin{figure}[h]
+  %\caption{Table 1 Summary statistics}
+%  \centering
+  \includegraphics[width=0.5\textwidth]{bird_figure2b}%
+  \includegraphics[width=0.5\textwidth]{bird_figure2c}
+%  \end{figure}
+\end{frame}
+
+\begin{frame}{Mechanism: different species/regions}
+  \begin{figure}[h]
+  %\caption{Table 1 Summary statistics}
+  \centering
+  \includegraphics[width=0.9\textwidth]{bird_figure3.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{Economic loss}
+  \item The average WTP to pay for each bird species in one birding trip is \$3.38 [1.97, 4.88] (Kolstoe and Cameron, 2017).
+  \item Approximately 46.7 million people engageed in bird-watching activities (FHWAR survey, 2011).
+  \item The economic loss yields average \$920 million [518 million, 1.3 billion].
+\end{frame}
+
+\begin{frame}{}
+  \centering \Huge
+  \emph{Thank You}
+\end{frame}
+
+
+\begin{frame}{Robustness Check}
+ \begin{itemize}
+   \item Daily tempearture exposure windows: 2/3/6 months
+   \item Choice of time periods: 5/10/15/20/25 spanning years
+   \item Distributed Lag model
+   \item Clustering: robust/county + year-by-state/ecoregion
+   \item Outliers
+ \end{itemize}
+\end{frame}
+
+
+
+\section*{SUMMARY}
+
+\begin{frame}{Summary}
+
+  % Keep the summary *very short*.
+  \footnotesize
+  \begin{itemize}
+  \item
+  Overall, for the whole bird group, increase in the high-temperatuer days had a significant impact on biodiversity of bird species in routes that were distributed across the United States.
+  \item The long-run adaptation has offset only 20\% of the negative short-term impact of extreme heat(>25 C) on bird species richness. Birds has no more adaptation to extreme heat in the long run.
+  \item
+    Swapping a standard deviation of days in the 0-15 C range for ones above 25 C increases the decline of bird abundance, species richness and evenness by approximately 1\%~2.5\%.
+  \item
+  The impact of additional extreme heat temperature days (>25 C degree) on specialist birds is almost three times larger than the generalist birds.
+  \item
+  Effect in the western and northern region will be more negative on the bird abundance(-1.5\%), species richness(-0.6\%) and Shannon-weaver index(-0.6\%).
+  \end{itemize}
+\end{frame}
+
+\end{document}

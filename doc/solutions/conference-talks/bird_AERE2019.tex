@@ -1,0 +1,363 @@
+% $Header$
+
+\documentclass{beamer}
+
+% This file is a solution template for:
+
+% - Talk at a conference/colloquium.
+% - Talk length is about 20min.
+% - Style is ornate.
+
+
+
+% Copyright 2004 by Till Tantau <tantau@users.sourceforge.net>.
+%
+% In principle, this file can be redistributed and/or modified under
+% the terms of the GNU Public License, version 2.
+%
+% However, this file is supposed to be a template to be modified
+% for your own needs. For this reason, if you use this file as a
+% template and not specifically distribute it as part of a another
+% package/program, I grant the extra permission to freely copy and
+% modify this file as you see fit and even to delete this copyright
+% notice.
+
+
+\mode<presentation>
+{
+  \usetheme{Warsaw}
+  % or ...
+
+  \setbeamercovered{transparent}
+  % or whatever (possibly just delete it)
+}
+
+
+\usepackage[english]{babel}
+% or whatever
+
+\usepackage[latin1]{inputenc}
+% or whatever
+
+\usepackage{times}
+\usepackage[T1]{fontenc}
+% Or whatever. Note that the encoding and the font should match. If T1
+% does not look nice, try deleting the line with the fontenc.
+
+
+\title[Sauce for the Goose is not Sauce for the Gander] % (optional, use only with long paper titles)
+{Sauce for the Goose is not Sauce for the Gander}
+
+\subtitle
+{Assessing the Heterogeneous Impact of Climate Change on Bird Biodiversity in the United States}
+
+\author[Luoye Chen] % (optional, use only with lots of authors)
+{Luoye Chen, Madhu Khanna\inst{1}}
+% - Give the names in the same order as the appear in the paper.
+% - Use the \inst{?} command only if the authors have different
+%   affiliation.
+
+\institute[UIUC-ACE] % (optional, but mostly needed)
+{
+  \inst{1}%
+  Department of Agricultural and Consumer Economics\\
+  University of Illinois
+}
+% - Use the \inst command only if there are several affiliations.
+% - Keep it simple, no one is interested in your street address.
+
+\date[CFP 2003] % (optional, should be abbreviation of conference name)
+{pERE Seminar, April 29th, 2018}
+% - Either use conference name or its abbreviation.
+% - Not really informative to the audience, more for people (including
+%   yourself) who are reading the slides online
+
+\subject{Environmental Economics}
+% This is only inserted into the PDF information catalog. Can be left
+% out.
+
+
+
+% If you have a file called "university-logo-filename.xxx", where xxx
+% is a graphic format that can be processed by latex or pdflatex,
+% resp., then you can add a logo as follows:
+
+% \pgfdeclareimage[height=0.5cm]{university-logo}{university-logo-filename}
+% \logo{\pgfuseimage{university-logo}}
+
+
+
+% Delete this, if you do not want the table of contents to pop up at
+% the beginning of each subsection:
+\AtBeginSubsection[]
+{
+  \begin{frame}<beamer>{Outline}
+    \tableofcontents[currentsection,currentsubsection]
+  \end{frame}
+}
+
+
+% If you wish to uncover everything in a step-wise fashion, uncomment
+% the following command:
+
+%\beamerdefaultoverlayspecification{<+->}
+
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Outline}
+  \tableofcontents
+  % You might wish to add the option [pausesections]
+\end{frame}
+
+
+% Structuring a talk is a difficult task and the following structure
+% may not be suitable. Here are some rules that apply for this
+% solution:
+
+% - Exactly two or three sections (other than the summary).
+% - At *most* three subsections per section.
+% - Talk about 30s to 2min per frame. So there should be between about
+%   15 and 30 frames, all told.
+
+% - A conference audience is likely to know very little of what you
+%   are going to talk about. So *simplify*!
+% - In a 20min talk, getting the main ideas across is hard
+%   enough. Leave out details, even if it means being less precise than
+%   you think necessary.
+% - If you omit details that are vital to the proof/implementation,
+%   just say so once. Everybody will be happy with that.
+
+\section{Motivation}
+
+\subsection{Climate change and bird biodiversity}
+
+\begin{frame}{WHY WORRY ABOUT BIRD BIODIVERSITY}{}
+  % - A title should summarize the slide in an understandable fashion
+  %   for anyone how does not follow everything on the slide itself.
+
+  \begin{itemize}
+  \item
+    Biodiversity
+    \begin{itemize}
+      \item Abundance: number of birds
+      \item Species richness: number of bird species
+      \item Species evenness: the level of how close in numbers each species in a community is
+    \end{itemize}
+  \item
+   A source of lost economic and ecological opportunity
+    \begin{itemize}
+      \item Hunting and recreational value (Nocera and Koslowsky,2017)
+      \item Crucial ecosystem services (Frank,2018; Dissanayake and Ando,2014)
+      \item Indicators of the health of the environment (NABCI,2014)
+    \end{itemize}
+
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+\begin{figure}[h]
+%\caption{Table 1 Summary statistics}
+\centering
+%\includegraphics[width=0.6\textwidth]{fig1.png}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\begin{figure}[h]
+%\caption{Table 1 Summary statistics}
+\centering
+%\includegraphics[width=0.6\textwidth]{fig1.png}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Make Titles Informative.}
+
+  You can create overlays\dots
+  \begin{itemize}
+  \item using the \texttt{pause} command:
+    \begin{itemize}
+    \item
+      First item.
+      \pause
+    \item
+      Second item.
+    \end{itemize}
+  \item
+    using overlay specifications:
+    \begin{itemize}
+    \item<3->
+      First item.
+    \item<4->
+      Second item.
+    \end{itemize}
+  \item
+    using the general \texttt{uncover} command:
+    \begin{itemize}
+      \uncover<5->{\item
+        First item.}
+      \uncover<6->{\item
+        Second item.}
+    \end{itemize}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{WHY WORRY ABOUT CLIMATE AND BIRD BIODIVERSITY}
+  \begin{itemize}
+    \item There are many reasons why climatic factors might influence birds
+    \begin{itemize}
+      \item Reduce reproductive and hatching success (Both and Visser, 2001; Miller-Rushing et al., 2008; Popoly et al., 2013)
+      \item Advance the food peak (availability of insects) (McKechnie and Wolf, 2010; Welbergen e al., 2008)
+    \end{itemize}
+    \item The current climate is highly variable, but forecast now provide planning and risk-management opportunities for conservation policy.
+    \item The global climate is changing, will bird biodiversity adjust/adapt in response?
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{RESERACH QUESTION}
+  \begin{itemize}
+    \item What is the quantitative evidence for a general linkage between climate and bird biodiversity
+    \begin{itemize}
+      \item Heterogeneity across bird metrics, species and regions
+      \item Short-run and Long-run effect
+    \end{itemize}
+  \end{itemize}
+\end{frame}
+
+\subsection{Previous Work}
+
+\begin{frame}{How does the climate change affect biodiversity}
+  \begin{itemize}
+    \item Ambihous direction of effect
+    \item Measurement of climate
+    \begin{itemize}
+      \item Average or distribution
+      \item Nonlinearity
+    \end{itemize}
+    \item Bird metrics: multidimensional concepts
+    \item Generalist birds/specieslist birds
+    \item Unobserved geophysical/geomorphology factors(e.g. elevation etc)
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Climate or weather?}
+  \begin{figure}[h]
+  %\caption{Table 1 Summary statistics}
+  \centering
+%  \includegraphics[width=0.6\textwidth]{fig_climate.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{HYPOTHESIS}
+  \begin{itemize}
+    \item \alert{Hypothesis 1:}The abundance, species richness, and evenness of generalist birds will increase with additional high-tempearture days, while those of specialist birds will decrease with additional high-temperature days.
+    \item \alert{Hypothesis 2:}Bird metrics (abundance, species richness, and species evenness) in the drier regions will respond more negatively to increase in the high-temperature days.
+    \item \alert{Hypothesis 3:}The potential negative impact of an increase in the high-temperature days on bird abundance, species richness, and evenness will be mitigated in the long-run.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{OBJECTIVE??}
+  \begin{itemize}
+    \item
+    To examine the effects of climate change on whole bird population and two subgroups of bird species (specialist, generalist) by using three different metrics of birds: the number of birds, number of bird species and Shannon-weaver index on U.S. continent from 1981 to 2015.
+    \item
+    To provide large-scale empirical evidence on whether and to what extent the impact of climate change will be offset in the long-term due to the adaptation and evolution of bird population.
+  \end{itemize}
+\end{frame}
+
+\section{Data and methods}
+\begin{frame}{DATA}
+  \begin{itemize}
+    \item Northern American breeding bird survey (BBS) data
+    \begin{itemize}
+      \item
+      Annually survey data
+      \item
+      3985 survey routes in the Uited States
+      \item
+      graph route
+      \item
+      time-varying convariates like sky or wind condition
+    \end{itemize}
+    \item NABCI species assessment database
+    \item PRISM daily weather information
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{MODEL}
+  \begin{itemize}
+    \item Panel approach, the standard is clear
+    \item Account for potential omitted Variables
+    \begin{itemize}
+      \item Time-invariant stuff
+      \item Time trending stuff: linear/nonlinear trends
+    \end{itemize}
+    \begin{equation}
+    B_{i,t}
+    \end{equation}
+    \item Bad control
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{MODEL}
+  \begin{itemize}
+    \item Long-difference Approach
+    \item {graph long difference}
+  \end{itemize}
+\end{frame}
+
+
+\section{Our Results/Contribution}
+
+\subsection{Main Results}
+
+\begin{frame}{Different Measures}
+\end{frame}
+
+\begin{frame}{Different species/regions}
+\end{frame}
+
+\begin{frame}{Long-run adaptation}
+\end{frame}
+
+
+
+
+\section*{Summary}
+
+\begin{frame}{Summary}
+
+  % Keep the summary *very short*.
+  \begin{itemize}
+  \item
+  Overall, for the whole bird group, our results showed climate change had a significant impact on biodiversity of bird species in routes that were distributed across the United States.
+  \item
+    Swapping a day in the 0-15 °C range for one above 25 °C increases the decline of bird abundance, species richness and evenness by approximately 0.2%~0.5%.
+  \item
+  The impact of additional extreme heat temperature days (>25 C degree) on specialist birds is almost three times larger than the generalist birds.
+  \item
+  Compared to the eastern region, an additional day in the above 25 C range in the western and northern region will have a larger negative impact on the bird abundance(-1.5\%), species richness(-0.6\%) and Shannon-weaver index(-0.6\%).
+  \item The long-run adaptation has offset only 20\% of the negative short-term impact of extreme heat(>25 °C) on bird species richness. Birds has no more adaptation to extreme heat in the long run.
+
+  \end{itemize}
+
+  % The following outlook is optional.
+  \vskip0pt plus.5fill
+  \begin{itemize}
+  \item
+    Outlook
+    \begin{itemize}
+    \item
+      Something you haven't solved.
+    \item
+      Something else you haven't solved.
+    \end{itemize}
+  \end{itemize}
+\end{frame}
+
+
+\end{document}
