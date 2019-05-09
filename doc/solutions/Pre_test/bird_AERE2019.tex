@@ -1,6 +1,6 @@
 % $Header$
 
-\documentclass[handout]{beamer}
+\documentclass{beamer}
 
 % This file is a solution template for:
 
@@ -233,7 +233,15 @@ Gaps:
   Source: Deryugina \& Hsiang(2014)
 \end{frame}
 
-
+\begin{comment}
+\begin{frame}{HYPOTHESIS}
+  \begin{itemize}
+    \item \alert{Hypothesis 1:}The abundance, species richness, and evenness of generalist birds will increase with additional high-tempearture days, while those of specialist birds will decrease with additional high-temperature days.
+    \item \alert{Hypothesis 2:}Bird metrics (abundance, species richness, and species evenness) in the drier regions will respond more negatively to increase in the high-temperature days.
+    \item \alert{Hypothesis 3:}The potential negative impact of an increase in the high-temperature days on bird abundance, species richness, and evenness will be mitigated in the long-run.
+  \end{itemize}
+\end{frame}
+\end{comment}
 
 \section{Data and methods}
 \begin{frame}{DATA}
@@ -256,7 +264,24 @@ Gaps:
   \end{itemize}
 \end{frame}
 
+\begin{comment}
+\begin{frame}{BBS route}
+  \begin{figure}[h]
+  %\caption{Table 1 Summary statistics}
+  \centering
+  \includegraphics[width=0.9\textwidth]{bbs_routes.png}
+  \end{figure}
+\end{frame}
 
+
+\begin{frame}{Temperature bins}
+  \begin{figure}[h]
+  %\caption{Table 1 Summary statistics}
+  \centering
+  \includegraphics[width=0.9\textwidth]{temperature_bins.png}
+  \end{figure}
+\end{frame}
+\end{comment}
 
 \begin{frame}{MODEL: Basic panel approach}
     \begin{equation}
@@ -270,8 +295,36 @@ Gaps:
    \end{block}
 \end{frame}
 
+\begin{comment}
+\begin{frame}{Omitted variables concern: local land use}
+    \begin{itemize}
+      \item Bad control: Local land use change adjust to the climate
+      \item No annual national-level land cover dataset
+    \end{itemize}
+    But we argue the omitted variable concerns would have a limited effect on identification based on:
+    \begin{itemize}
+      \item Lots of bird survey routes are located in the middle of forest and pasture lands; thereby expansion of residential housing land or cropland would have limited impact on them.
+      \item Little change in either land area or land management practice (e.g., Burke and Emerick (2016a) use county-level data from 1950-2005)
+      \item County-by-year fixed effect to absorb the shock from annual change of management practice in a specific county
+    \end{itemize}
+\end{frame}
+\end{comment}
 
-
+\begin{comment}
+\begin{frame}{MODEL: Long difference approach}
+  \begin{itemize}
+    \item Estimates of short-run responses to weather might not bound estimates of longer run response to climate
+\begin{equation}
+    \Delta \bar{B}_{i,s} = \textcolor{red}{\beta_{LD}} \Delta \bar{C}_{i,s} + \textcolor{red}{\gamma_s} + \epsilon_{i,s}
+    \label{equ:e2}
+\end{equation}
+In equation \eqref{equ:e2}, $\Delta \bar{B}_{i,s}$ is the change in bird metrics $B$ in route $i$ and region $s$ between two period $[t_a,t_b]$ far apart from each other.
+\[
+\Delta \bar{B}_{i,s} = \bar{B}_{i,t_b} - \bar{B}_{i,t_a} = \frac{1}{T} \sum_{t \in b} B_{i,t} - \frac{1}{T} \sum_{t \in a} B_{i,t}
+\]
+  \end{itemize}
+\end{frame}
+\end{comment}
 
 \begin{frame}{MODEL: Long difference approach}
     \begin{block}{Identification Assumptions}
@@ -324,6 +377,13 @@ Gaps:
 \end{frame}
 
 
+\begin{frame}{Main Result}<handout:0|beamer:0>
+  \begin{figure}[h]
+  %\caption{Table 1 Summary statistics}
+  \centering
+  \includegraphics[width=0.7\textwidth]{main_result.png}
+  \end{figure}
+\end{frame}
 
 
 \begin{frame}{Statistical testing: does $\beta_{FE}$ close to $\beta_{LD}$}
