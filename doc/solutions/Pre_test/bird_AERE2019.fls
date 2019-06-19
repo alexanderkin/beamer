@@ -481,6 +481,14 @@ INPUT c:/texlive/2018/texmf-dist/fonts/tfm/adobe/helvetic/phvr8r.tfm
 INPUT climate_weather.png
 INPUT ./climate_weather.png
 INPUT ./climate_weather.png
+INPUT bbs_routes.png
+INPUT ./bbs_routes.png
+INPUT ./bbs_routes.png
+INPUT temperature_bins.png
+INPUT ./temperature_bins.png
+INPUT ./temperature_bins.png
+INPUT c:/texlive/2018/texmf-dist/fonts/vf/adobe/helvetic/phvro8t.vf
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/adobe/helvetic/phvro8r.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/vf/adobe/helvetic/phvro8t.vf
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/adobe/helvetic/phvro8r.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/vf/adobe/helvetic/phvro8t.vf
@@ -490,6 +498,9 @@ INPUT bird_AERE2019.toc
 INPUT result_mreasure1.png
 INPUT ./result_mreasure1.png
 INPUT ./result_mreasure1.png
+INPUT main_result.png
+INPUT ./main_result.png
+INPUT ./main_result.png
 INPUT long_diff1.png
 INPUT ./long_diff1.png
 INPUT ./long_diff1.png
@@ -515,8 +526,6 @@ INPUT c:/texlive/2018/texmf-dist/fonts/tfm/adobe/helvetic/phvro8t.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/adobe/helvetic/phvro8t.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/vf/adobe/helvetic/phvro8t.vf
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/adobe/helvetic/phvro8r.tfm
-INPUT c:/texlive/2018/texmf-dist/fonts/vf/adobe/helvetic/phvro8t.vf
-INPUT c:/texlive/2018/texmf-dist/fonts/tfm/adobe/helvetic/phvro8r.tfm
 INPUT bird_figure2b.png
 INPUT ./bird_figure2b.png
 INPUT ./bird_figure2b.png
@@ -540,6 +549,7 @@ INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb
